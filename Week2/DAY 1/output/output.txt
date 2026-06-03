@@ -1,0 +1,115 @@
+
+
+**Query #1**
+
+
+| emp_id | upper_name | lower_name | proper_name | total_income | joining_year | employee_level |
+| ------ | ---------- | ---------- | ----------- | ------------ | ------------ | -------------- |
+| 1      | KARTHIK    | karthik    | Karthik     | 80001        | 2019         | Mid            |
+| 2      | VEENA      | veena      | Veena       | 69001        | 2021         | Mid            |
+| 3      | RAVI       | ravi       | Ravi        | 91002        | 2016         | Senior         |
+| 4      | ANIL       | anil       | Anil        | 70000        | 2020         | Mid            |
+| 5      | SURESH     | suresh     | Suresh      | 63001        | 2022         | Junior         |
+
+---
+**Query #2**
+
+
+
+| order_id | customer_name | delivery_days | final_delivery_date | truncated_amount | delivery_status |
+| -------- | ------------- | ------------- | ------------------- | ---------------- | --------------- |
+| 101      | RAJESH        | 4             | 2025-01-05          | 12500.7          | Delayed         |
+| 102      | MEENA         | 0             | 2025-01-10          | 8400.4           | Same-day        |
+| 103      | ARUN          | 5             | 2025-01-20          | 15600.9          | Delayed         |
+| 104      | POOJA         | 501           | 2026-06-03          | 9200.1           | Pending         |
+
+---
+**Query #3**
+
+| cust_id | customer_name | purchase_month | rounded_amount | absolute_amount | spender_type |
+| ------- | ------------- | -------------- | -------------- | --------------- | ------------ |
+| 1       | Amit          | December       | 12001          | 12000.75        | Medium       |
+| 2       | Neha          | December       | 8500           | 8500.4          | Medium       |
+| 3       | Rohit         | November       | 15501          | 15500.9         | High spender |
+| 4       | Kavya         | October        | 6000           | 6000.1          | Low          |
+
+---
+**Query #4**
+
+
+
+| user_id | email_domain | duration_months | formatted_fee | remaining_days | subscription_status |
+| ------- | ------------ | --------------- | ------------- | -------------- | ------------------- |
+| 1       | gmail.com    | 12              | 12,000.50     | -518           | Expired             |
+| 2       | yahoo.com    | 6               | 8,500.75      | -535           | Expired             |
+| 3       | hotmail.com  | 12              | 15,000.90     | -824           | Expired             |
+
+---
+**Query #5**
+
+
+| loan_id | customer_name | monthly_interest   | years_since_loan | emi  | risk_category |
+| ------- | ------------- | ------------------ | ---------------- | ---- | ------------- |
+| 201     | SURESH        | 1.0068214933385833 | 4                | 3542 | Medium Risk   |
+| 202     | MAHESH        | 1.0073612011574025 | 5                | 5750 | High Risk     |
+| 203     | ANITA         | 1.0062785842100341 | 2                | 1950 | Low Risk      |
+
+---
+**Query #6**
+
+
+
+| emp_id | employee_name | attendance_percentage | month_name | absent_days | attendance_status |
+| ------ | ------------- | --------------------- | ---------- | ----------- | ----------------- |
+| 1      | karthik       | 93.33                 | January    | 2           | Excellent         |
+| 2      | veena         | 73.33                 | January    | 8           | Poor              |
+| 3      | ravi          | 60.0                  | January    | 12          | Poor              |
+
+---
+**Query #7**
+
+
+
+| product_id | product_name | discount_amount | discount_percentage | sale_day  | discount_status |
+| ---------- | ------------ | --------------- | ------------------- | --------- | --------------- |
+| 1          | Laptop       | 7000.25         | 9.33                | Friday    | Valid Discount  |
+| 2          | Mobile       | 2000.15         | 5.71                | Sunday    | Valid Discount  |
+| 3          | Tablet       | 999.85          | -4.0                | Wednesday | Overpriced      |
+
+---
+**Query #8**
+
+
+
+| policy_id | holder_name | policy_duration | remaining_days | rounded_premium | policy_status |
+| --------- | ----------- | --------------- | -------------- | --------------- | ------------- |
+| 301       | ARJUN       | 3               | -153           | 12001           | Expired       |
+| 302       | MEGHA       | 3               | -353           | 8501            | Expired       |
+| 303       | VINOD       | 3               | -824           | 15001           | Expired       |
+
+---
+**Query #9**
+
+
+
+
+| emp_id | employee_name | years_since_hike | increment_amount | new_salary | increment_status |
+| ------ | ------------- | ---------------- | ---------------- | ---------- | ---------------- |
+| 1      | karthik       | 3                | 15000.15         | 90001      | High Increment   |
+| 2      | veena         | 2                | 6500.04          | 71500      | Moderate         |
+| 3      | ravi          | 4                | 0                | 85001      | No Increment     |
+
+---
+**Query #10**
+
+
+
+| account_id | customer_name | absolute_balance | days_since_transaction | branch_name | balance_sign | account_status |
+| ---------- | ------------- | ---------------- | ---------------------- | ----------- | ------------ | -------------- |
+| 501        | ramesh        | 125000.75        | 530                    | Hyderabad   | 1            | Dormant        |
+| 502        | sita          | 8500.4           | 1084                   | Delhi       | 1            | Dormant        |
+| 503        | manoj         | 2500.9           | 514                    | Mumbai      | -1           | Overdrawn      |
+
+---
+
+[View on DB Fiddle](https://www.db-fiddle.com/)
